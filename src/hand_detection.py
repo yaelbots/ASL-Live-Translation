@@ -99,7 +99,7 @@ class HandDetector:
 
 def main():
     cap = cv2.VideoCapture(0)
-    detector = HandDetector(model_path=r'C:\Users\Oscar\Desktop\ASL Live - RowdyHacks\models\model0')
+    detector = HandDetector(model_path=r'/Users/yaelreyes/ASL-Live-Translation/asl_alphabet_train')
 
     # Dinosaur names list without the letter 'Z'
     dinosaur_names = ["DINOSAUR", "TRICERATOPS", "STEGOSAURUS", "VELOCIAPTOR"]  # Example names
