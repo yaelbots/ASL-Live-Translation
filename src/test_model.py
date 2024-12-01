@@ -20,7 +20,7 @@ def load_and_preprocess_test_data(test_data_dir, target_size=(150, 150)):
     return np.array(test_images)
 
 # Directory containing test images
-test_data_dir = "data/asl_train/test_model"
+test_data_dir = "/Users/yaelreyes/ASL-Live-Translation/asl_alphabet_train"
 
 # Load and preprocess test data
 test_images = load_and_preprocess_test_data(test_data_dir)
